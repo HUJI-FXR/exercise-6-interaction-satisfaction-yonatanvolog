@@ -2407,11 +2407,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 997961323}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.106165, y: 1.0025749, z: 1.1477913}
-  m_Center: {x: 0.009373536, y: -0.04796324, z: 0.054252267}
+  m_Size: {x: 1.106165, y: 0.21340857, z: 1.1477913}
+  m_Center: {x: 0.009373536, y: -0.442545, z: 0.054252267}
 --- !u!23 &997961326
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2476,7 +2476,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 0ef3f25c99f541f45a468655b474e59a, type: 2}
   successMaterial: {fileID: 2100000, guid: 22c2147ea2352a04f86d9ade3ee1984b, type: 2}
-  binSides: []
+  binSides:
+  - {fileID: 1519031335}
+  - {fileID: 408588549}
+  - {fileID: 402994130}
+  - {fileID: 1205211951}
+  - {fileID: 1802995354}
 --- !u!1 &1024124837
 GameObject:
   m_ObjectHideFlags: 0
